@@ -71,8 +71,7 @@ TortoiseSVN is implemented as a Windows shell extension. It's intuitive and easy
     <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/81c6df0de9bb542ecc516c813101d10525c74e51/icons/tortoisesvn.png</iconUrl>
     <releaseNotes>http://tortoisesvn.net/Changelog.txt</releaseNotes>
   </metadata>
-  <files>
-    <file src="legal\**" target="legal" />
+  <files>    
     <file src="tools\**" target="tools" />
   </files>
 </package>

@@ -46,11 +46,11 @@ function global:au_GetLatest {
 
     
     #https://sourceforge.net/projects/tortoisesvn/files/1.9.7/Application/ipv6/TortoiseSVN-1.9.7.27907-win32-ipv6-svn-1.9.7.msi/download
-    $re32  = "TortoiseSVN-(.*)-win32-svn-(.*).msi"
+    $re32  = "TortoiseSVN-(.*)-win32-ipv6-svn-(.*).msi"
     $url32 = $download_page.links | Where-Object href -match $re32 | Select-Object -First 1 -expand href
    
     #https://sourceforge.net/projects/tortoisesvn/files/1.9.7/Application/ipv6/TortoiseSVN-1.9.7.27907-x64-ipv6-svn-1.9.7.msi/download
-    $re64  = "TortoiseSVN-(.*)-x64-svn-(.*).msi"
+    $re64  = "TortoiseSVN-(.*)-x64-ipv6-svn-(.*).msi"
     $url64 = $download_page.links | Where-Object href -match $re64 | Select-Object -First 1 -expand href
 
     $filename32 = $url32 -split '/' | Select-Object -Skip 1 -Last 1

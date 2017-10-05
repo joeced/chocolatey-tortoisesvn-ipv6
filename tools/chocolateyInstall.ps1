@@ -14,7 +14,7 @@ $installFile = if ((Get-ProcessorBits 64) -and $env:chocolateyForceX86 -ne 'true
 }
 
 $packageArgs = @{
-    PackageName = 'tortoisesvn'
+    PackageName = 'tortoisesvn-ipv6'
     FileType = 'msi'
     SoftwareName = 'TortoiseSVN*'
     File = $installFile

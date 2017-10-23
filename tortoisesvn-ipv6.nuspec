@@ -9,9 +9,17 @@
     <owners>joeced</owners>
     <summary>Subversion® source control management client implemented as File Explorer shell extension</summary>
     <description>
-TortoiseSVN is a really easy to use Revision control / version control / source control software for Windows. It is based on [Apache™ Subversion (SVN)®](http://subversion.apache.org/).
+TortoiseSVN is a really easy to use Revision control / version control / 
+source control software for Windows. It is based on
+[Apache™ Subversion (SVN)®](http://subversion.apache.org/).
 
-TortoiseSVN is implemented as a Windows shell extension. It's intuitive and easy to use, since it doesn't require the Subversion command line client to run and provides revision information graphically with overlay icons. TortoiseSVN is free to use, even in a commercial environment.
+TortoiseSVN is implemented as a Windows shell extension. It's intuitive and
+easy to use, since it doesn't require the Subversion command line client to run
+and provides revision information graphically with overlay icons. TortoiseSVN is
+free to use, even in a commercial environment.
+
+This is the IPV6 version which is needed when working with Microsoft 
+DirectAccess.
 
 ## Features
 
@@ -59,7 +67,7 @@ TortoiseSVN is implemented as a Windows shell extension. It's intuitive and easy
     * During development cycles, many people test intermediate builds. These are built every night automatically and made available to all our users. This helps finding bugs very early so they won't even get into an official release.
     * A big user community helps out with testing each build before we release it.
     * A custom crash report tool is included in every TortoiseSVN release which helps us fix the bugs much faster, even if you can't remember exactly what you did to trigger it.    </description>
-    <tags>svn subversion scm version-control admin foss ipv6</tags>
+    <tags>svn subversion scm version-control admin foss ipv6 directaccess</tags>
     <packageSourceUrl>https://github.com/joeced/chocolatey-tortoisesvn-ipv6</packageSourceUrl>
     <projectUrl>http://tortoisesvn.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/tortoisesvn/code/HEAD/tree/</projectSourceUrl>

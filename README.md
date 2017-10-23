@@ -1,9 +1,17 @@
 ﻿# <img src="https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/81c6df0de9bb542ecc516c813101d10525c74e51/icons/tortoisesvn.png" width="48" height="48"/> [tortoisesvn-ipv6](https://chocolatey.org/packages/tortoisesvn-ipv6)
 
 
-TortoiseSVN is a really easy to use Revision control / version control / source control software for Windows. It is based on [Apache Subversion (SVN)](http://subversion.apache.org/).
+TortoiseSVN is a really easy to use Revision control / version control /
+ source control software for Windows. It is based on 
+ [Apache Subversion (SVN)](http://subversion.apache.org/).
 
-TortoiseSVN is implemented as a Windows shell extension. It's intuitive and easy to use, since it doesn't require the Subversion command line client to run and provides revision information graphically with overlay icons. TortoiseSVN is free to use, even in a commercial environment.
+TortoiseSVN is implemented as a Windows shell extension. It's intuitive and easy
+to use, since it doesn't require the Subversion command line client to run and
+provides revision information graphically with overlay icons. TortoiseSVN is
+free to use, even in a commercial environment.
+
+This is the IPV6 version which is needed when working with Microsoft 
+DirectAccess.
 
 ## Features
 

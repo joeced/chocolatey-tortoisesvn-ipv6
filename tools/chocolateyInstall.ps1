@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://downloads.sourceforge.net/project/tortoisesvn/1.9.7/Application/ipv6/TortoiseSVN-1.9.7.27907-win32-ipv6-svn-1.9.7.msi'
-$url64      = 'https://downloads.sourceforge.net/project/tortoisesvn/1.9.7/Application/ipv6/TortoiseSVN-1.9.7.27907-x64-ipv6-svn-1.9.7.msi'
+$url        = 'https://osdn.net/projects/tortoisesvn/storage/1.10.0/Application/ipv6/TortoiseSVN-1.10.0.28176-win32-ipv6-svn-1.10.0.msi'
+$url64      = 'https://osdn.net/projects/tortoisesvn/storage/1.10.0/Application/ipv6/TortoiseSVN-1.10.0.28176-x64-ipv6-svn-1.10.0.msi'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -12,9 +12,9 @@ $packageArgs = @{
   softwareName  = 'tortoisesvn-ipv6*' 
 
   # e.g. checksum -t sha256 -f path\to\file
-  checksum      = '718ABBA18AA1B15D7DDF6CEE99872C41CA0B8288A470F3DE9F818376711EFA1A'
+  checksum      = '11118EEB18D356D00B9F4D85D2AC2C38C7EB2401A04F8E449B22551CD4888885'
   checksumType  = 'sha256'
-  checksum64    = '7BB37264D25978F146963A47F691CF262469C73FE6B7901ED0983EBAD5F869A1'
+  checksum64    = '76FDBC774656F87E702EF6429A4FE1A5C7867B8503C33D65BCFECD5069724E42'
   checksumType64= 'sha256'
 
   # MSI

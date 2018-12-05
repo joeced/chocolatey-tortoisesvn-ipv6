@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://osdn.net/projects/tortoisesvn/storage/1.11.0/Application/ipv6/TortoiseSVN-1.11.0.28416-win32-ipv6-svn-1.11.0.msi'
-$url64      = 'https://osdn.net/projects/tortoisesvn/storage/1.11.0/Application/ipv6/TortoiseSVN-1.11.0.28416-x64-ipv6-svn-1.10.2.msi'
+$url64      = 'https://osdn.net/projects/tortoisesvn/storage/1.11.0/Application/ipv6/TortoiseSVN-1.11.0.28416-x64-ipv6-svn-1.11.0.msi'
 
 
 
